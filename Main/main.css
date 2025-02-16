@@ -6,6 +6,10 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
     background: #121212;
+    background-image: url(../Files/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -48,7 +52,7 @@
     transition: all 0.3s ease;
   }
   .card {
-    background: #1f1f1f;
+    background: #1f1f1f77;
     width: 300px;
     padding: 12px;
     margin-bottom: 10px;
@@ -60,7 +64,7 @@
     transition: 0.3s ease-in-out;
   }
   .card:hover {
-    background: #ff4d4d;
+    background: #ff4d4d8d;
     min-height: max-content;
     transition: 0.3s ease-in-out;
   }
@@ -99,7 +103,7 @@
   .tabs {
     display: flex;
     justify-content: space-around;
-    background: #1f1f1f;
+    background: #1f1f1fbf;
     padding: 8px 0;
     box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.2);
   }
@@ -114,7 +118,7 @@
     transition: background 0.3s ease;
   }
   .tab.active {
-    background-color: #ff4d4d;
+    background-color: #ff4d4dbc;
     font-weight: 600;
     transition: background 0.3s ease;
 

@@ -6,7 +6,10 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #121212;
+  background-image: url(Files/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   display: flex;
   justify-content: center;
   align-items: center;
