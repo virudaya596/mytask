@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Screen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Files/icon.png">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="loader-container" id="loader">
+        <img src="Files/logo.gif" alt="Logo" class="logo" id="logo">
+        <div class="loader" id="spinner"></div>
+    </div>
+    <div class="content" id="content">
+        <div class="ghadi">
+            <div class="time">
+                <div class="clock">
+                    <div class="clock-face">
+                        <!-- Numbers -->
+                        <div class="number number-12">12</div>
+                        <div class="number number-3">3</div>
+                        <div class="number number-6">6</div>
+                        <div class="number number-9">9</div>
+
+                            <div id="day">day(name)</div>
+                            <div class="line"></div>
+                            <div id="time">hh : mm : ss</div>
+                            <div class="line"></div>
+                            <div id="date">dd mm(name) yyyy</div>
+                            
+
+                        <!-- Clock Hands -->
+                        <div class="hand hour-hand"></div>
+                        <div class="hand minute-hand"></div>
+                        <div class="hand second-hand"></div>
+            
+                        <!-- Center Dot -->
+                        <div class="center-dot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <button class="start-btn" onclick="window.location.href='main/main.html'">Let's Go</button>
+    </div>
+        
+    <script src="script.js">
+        // This is For Loading & LOGO 
+    </script>
+
+    <script src="today.js">
+        // This is for Today's Date / Time / Day
+    </script>
+
+    <script src="clock.js">
+        // This is for Analog Clock's Logic
+    </script>
+</body>
+</html>

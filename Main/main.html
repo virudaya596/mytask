@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekday Tabs App with Tasks</title>
+  <link rel="icon" href="../Files/icon.png">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="head">
+    <div id="time">hh : mm : ss</div>
+    <div id="date">dd mm(name) yyyy</div>
+    <div id="day">day(name)</div>
+</div>
+  <div class="header">
+    Daily Schedules
+  </div>
+
+  <div id="content" class="content-container"></div>
+
+  <div class="tabs">
+    <div class="tab active" onclick="showContent(0)">MON</div>
+    <div class="tab" onclick="showContent(1)">TUE</div>
+    <div class="tab" onclick="showContent(2)">WED</div>
+    <div class="tab" onclick="showContent(3)">THUR</div>
+    <div class="tab" onclick="showContent(4)">FRI</div>
+    <div class="tab" onclick="showContent(5)">SAT</div>
+    <div class="tab" onclick="showContent(6)">SUN</div>
+  </div>
+  
+
+  <script src="main.js"></script>
+
+</body>
+</html>
